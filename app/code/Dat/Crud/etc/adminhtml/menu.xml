@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Dat_Crud::helloworld" title="Dat Crud" module="Dat_Crud" resource="Dat_Crud::helloworld"/>
+        <add id="Dat_Crud::post" title="Manage Posts" module="Dat_Crud" sortOrder="10" action="dat_crud/post" resource="Dat_Crud::post" parent="Dat_Crud::helloworld"/>
+        <add id="Dat_Crud::hello_configuration" title="Configuration" module="Dat_Crud" sortOrder="99" parent="Dat_Crud::helloworld" action="adminhtml/system_config/edit/section/helloworld" resource="Dat_Crud::helloworld_configuration"/>
+    </menu>
+</config>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="ProductVendor_Product::admin">
+                <resource id="Magento_Backend::stores">
+                    <resource id="Magento_Backend::stores_settings">
+                        <resource id="Magento_Config::config">
+                            <resource id="ProductVendor_Product::config_multivendor" title="Product" sortOrder="50"/>
+                        </resource>
+                    </resource>
+                </resource>
+                <resource id="ProductVendor_Product::product" title="Product">
+                    <resource id="ProductVendor_Product::products" title="Products" sortOrder="3"/>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
+

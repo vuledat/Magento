@@ -1,0 +1,31 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <route url="/V1/jeffSliderSlide/:slideId" method="GET">
+        <service class="Jeff\Slider\Api\SlideRepositoryInterface" method="getById"/>
+        <resources>
+            <!-- <resource ref="anonymous" /> -->
+            <resource ref="Jeff_Slider::config" />
+        </resources>
+    </route>
+
+    <route url="/V1/jeffSliderSlide/search" method="GET">
+        <service class="Jeff\Slider\Api\SlideRepositoryInterface" method="getList"/>
+        <resources>
+            <resource ref="anonymous" />
+        </resources>
+    </route>
+
+    <route url="/V1/jeffSliderSlides" method="POST">
+        <service class="Jeff\Slider\Api\SlideRepositoryInterface" method="save"/>
+        <resources>
+            <resource ref="Jeff_Slider::slide_save" />
+        </resources>
+    </route>
+
+    <route url="/V1/jeffSliderSlide/:slideId" method="DELETE">
+        <service class="Jeff\Slider\Api\SlideRepositoryInterface" method="deleteById"/>
+        <resources>
+            <resource ref="Jeff_Slider::slide_delete" />
+        </resources>
+    </route>
+</routes>

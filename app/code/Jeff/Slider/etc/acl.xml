@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Jeff_Slider::top" title="Jeff Slider">
+                    <resource id="Jeff_Slider::config" title="Jeff Slider News" sortOrder="10"/>
+                    <resource id="Jeff_Slider::slide_save" title="Save Slide" sortOrder="20" />
+                    <resource id="Jeff_Slider::slide_delete" title="Delete Slide" sortOrder="30" />
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

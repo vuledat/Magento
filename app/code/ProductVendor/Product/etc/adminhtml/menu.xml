@@ -1,0 +1,8 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="ProductVendor_Product::product" title="Product" module="ProductVendor_Product"
+             sortOrder="30" resource="ProductVendor_Product::product"/>
+        <add id="ProductVendor_Product::products" title="Products" module="ProductVendor_Product"
+             sortOrder="1" parent="ProductVendor_Product::product" action="productadmin/product/index" resource="ProductVendor_Product::products"/>
+    </menu>
+</config>

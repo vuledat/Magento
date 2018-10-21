@@ -1,0 +1,1 @@
+"Fatal Error: 'Class Magestore\\Multivendor\\Model\\Test contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Magestore\\Multivendor\\Api\\TestInterface::getinfom)' in '\/opt\/lampp\/htdocs\/magento\/app\/code\/Magestore\/Multivendor\/Model\/Test.php' on line 10"

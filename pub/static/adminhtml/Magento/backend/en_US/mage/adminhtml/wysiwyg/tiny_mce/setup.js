@@ -1,0 +1,1 @@
+/opt/lampp/htdocs/magento/lib/web/mage/adminhtml/wysiwyg/tiny_mce/setup.js

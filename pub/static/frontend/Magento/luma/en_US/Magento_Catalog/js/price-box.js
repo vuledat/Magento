@@ -1,0 +1,1 @@
+/opt/lampp/htdocs/magento/vendor/magento/module-catalog/view/base/web/js/price-box.js

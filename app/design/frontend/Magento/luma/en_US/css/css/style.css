@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+header{
+	background: #FF551F;
+}
+#header-1 a{
+	background: #F74D18;
+	color: white;
+}
+#header-2{
+	height: 90px;
+}
+#logo span{
+	color: white;
+	font-size: 20px;
+}
+
+#search form{
+	padding-top: 23px;	
+}
+#cart span{
+	font-size: 14px;
+}
+#menu{
+padding-top: 20px;
+background: #F5F5F5;
+}
+#menu a{
+	color: black;
+}
+#menu a:hover{
+	text-decoration: none;
+}
+#menu ul li:hover{
+	background: orange;
+}
+#menu ul li:hover a{
+	color: white;
+	
+}
+#menu ul li a{
+	width: 100%;
+	
+}
+#dm{
+	background: #FF551F;
+	color: white;
+}
+.item-sanpham{
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+footer{
+	text-align: center;
+	background: #FF551F;
+}
+footer a{
+	color: white;
+}
+#foot1{
+	margin-top: 20px;
+	padding-top: 20px;
+}
+#foot2{
+	padding: 20px;
+}
+#foot2 p{
+	color: white;
+}
+button #btn{
+	background: transparent;
+	border: none;
+}
+
+#infor{
+	position: fixed;
+	top:5%;
+	right: 5%;
+	font-size: 18px;
+}

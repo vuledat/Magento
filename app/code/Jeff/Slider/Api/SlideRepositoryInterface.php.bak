@@ -1,0 +1,18 @@
+<?php
+namespace Jeff\Slider\Api;
+
+use Jeff\Slider\Api\Data\SlideInterface;
+use Magento\Framework\Api\SearchCriteriaInterface;
+
+interface SlideRepositoryInterface 
+{
+    public function save(SlideInterface $slide);
+
+    public function getById($slideId);
+
+    public function getList(SearchCriteriaInterface $criteria);
+
+    public function delete(SlideInterface $page);
+
+    public function deleteById($slideId);
+}

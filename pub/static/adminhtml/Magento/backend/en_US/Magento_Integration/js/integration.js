@@ -1,0 +1,1 @@
+/opt/lampp/htdocs/magento/vendor/magento/module-integration/view/adminhtml/web/js/integration.js

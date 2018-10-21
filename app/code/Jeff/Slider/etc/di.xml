@@ -1,0 +1,4 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Jeff\Slider\Api\Data\SlideInterface" type="Jeff\Slider\Model\Slide" />
+    <preference for="Jeff\Slider\Api\SlideRepositoryInterface" type="Jeff\Slider\Model\SlideRepository" />
+</config>

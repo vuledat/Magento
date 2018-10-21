@@ -1,0 +1,1 @@
+/opt/lampp/htdocs/magento/lib/web/tiny_mce/langs/en.js
